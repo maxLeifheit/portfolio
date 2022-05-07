@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
+
+.logo{
+	margin: 5px auto;
+	display:block;
+}
+
+
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+	margin: 0;
+}
+
+.container-fluid{
+	background-color: #b0dce5;
+	margin: 5px auto;
+	max-width: 1200px;
+	display:block;
+	border-radius: 50px;
+
+}
+
+.container-fluid p{
+	margin-top: 30px;
+	padding: 10px;
+	text-align: center;
+}
+
+h1{
+	text-align: center;
+	color:#197dcb;
+}
+
+h2 { 
+
+}
+
+/*CSS without a media query--applies to all sizes unless overridden*/
+h1{
+		font-size: 2.2em;
+ }
+
+.mobile{
+	display:none;
+}
+
+@media only screen and (max-width: 400px) {
+	.desktop{
+		display:none;
+	}
+	.mobile{
+		display:block;
+	}
+}
+
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+	h1{
+		font-size: 1.8em;
+	}
+}
+/* CSS Adjustments for Smartphones */
+@media only screen and (max-width: 768px) {
+	h1{
+		font-size: 1.5em;
+	}
+}
+
+
+nav{
+
+}
+
+nav a:link{
+	color:#197dcb;
+}
+
+nav a:visited{
+	color:#197dcb;
+}
+
+nav a:hover{
+	color:#042d65;
+}
+
+nav a:active{
+	color:#000000;
+}
+
+nav ul{
+	list-style-type: none;
+	text-align: center;
+	margin: 0px;
+	padding: 5px;
+}
+
+nav li{
+	display: inline;
+	padding: 5px;
+}
+
+main{
+	max-width: 1000px;
+	margin: 5px auto;
+}
+
+footer{
+	color: black;
+	text-align: center;
+	padding: 5px;
+	margin: 0 auto;
+}
+
+a:link{
+	color:purple;
+}
+
+a:visited{
+	color:purple;
+}
+
+a:hover{
+	color:blue;
+}
+a:active{
+	color:black;
+}
+
+.img-fluid {
+	float: right;
+	max-width: 80%;
+	height: auto;
+	display: block;
+	padding: 5px;
+}
+
+.about p{
+	padding: 5px;
+	text-align: left;
+	font-size: 24px;
+}
+
+.about a{
+	padding-top: 1px;
+	margin: 5px auto;
+	text-align: left;
+	font-size: 20px;
+}
+
+i.fa{
+	padding: 9px;
+	font-size: 40px;
+	float: right;
+	margin-top: 10px;
+}
